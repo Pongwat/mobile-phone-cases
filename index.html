@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*----------------------------------
+               Header
+-----------------------------------*/
+.header {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.header-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-right {
+  float: right;
+  
+}
+
+
+
+
+/*----------------------------------
+               Header End
+-----------------------------------*/
+
+
+
+
+/*----------------------------------
+               topnav
+-----------------------------------*/
+
+.topnav {
+  
+  margin-top: -4px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.topnav .form {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+.topnav-icon {
+    float: left;
+    
+    
+    
+}
+
+.topnav-icon2 a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 14px 16px;
+    font-size: 30px;
+}
+
+.topnav-icon a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 14px 16px;
+}
+
+.nav {
+    
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+
+
+
+.nav a {
+  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 17px;
+    
+    
+  
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+               topnav End
+-----------------------------------*/
+
+.form {
+  float: right;
+  margin-top: 5px;
+  text-align: center;
+}
+/*----------------------------------
+               section 1
+-----------------------------------*/
+.section1 {
+  margin-top: 30px;
+}
+/*----------------------------------
+               column cards
+-----------------------------------*/
+/* Float four columns side by side */
+.column {
+  
+  float: left;
+  width: 100%;
+  padding:  10px;
+  position: relative;
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+}
+
+
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    
+    overflow: hidden;
+    display: flex;
+    
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  background-color: #f1f1f1;
+  max-width: 100%;
+  margin-top: 20px;
+  
+  
+  
+  
+}
+
+.row .ribbon {
+  width: 60px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: -5px;
+  top: 22px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #ff9800;
+  color: white;
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+
+
+/*----------------------------------
+               section 2
+-----------------------------------*/
+.section2 .section2-content {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 40px;
+}
+
+
+.section2 img {
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+               section 3
+-----------------------------------*/
+.section3 {
+    background-color: #045D5D;
+    padding: 30px;
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+.content-form {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    font-size: 40px;
+    color: white;    
+}
+
+.section3 .row2 .column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  
+}
+
+
+
+.section3 .row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+/*----------------------------------
+               footer
+-----------------------------------*/
+.footer {
+    background-color: #52595d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .topnav-icon {display: none;}
+    
+    .row {
+      width: 100%;
+    }
+    
+    
+    
+
+    
+    
+    
+    
+    .section1 [class*="figure"] {
+        float: left;
+        
+        margin: 0;
+        padding: 10px;
+    }
+
+    .section1 .figure-1 {
+        width: 25%;
+        
+    }
+
+    .section1 .figure-2 {
+        width: 50%;
+    }
+
+    .section1 .figure-3 {
+        width: 25%;
+    }
+
+    /* Clear floats after the columns */
+    .section1::after {
+        content: "";
+        display: table;
+        clear: both;
+    } 
+    
+    .section2 {
+        display: flex;
+    }
+    .section2 img {
+        width: 50%;
+    }
+    .section2 .section2-content {
+        width: 50%;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+
+
+    .section3 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .section3 .content-form {
+      width: 50%;
+    }
+
+    .section3 .row2 {
+      width: 50%;
+    }
+
+    
+
+    
+
+    .section2 .content-form {
+        text-align: center;
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .section2 .row2  {
+      width: 50%;
+    }
+    
+    
+
+    
+
+   
+
+    
+
+    
+
+  
+    
+  
+  
+
+ 
+
+    
+    
+}
+
+.topnav-icon2 {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;
+    
+    
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+  top: 0;
+  left: 0;
+  
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+  
+  
+    
+
+}
+.nav {
+      display: inline;
+    }
+
+.logo {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav.responsive .nav {
+  display: block;
+}
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+
+  .topnav.responsive .nav a {
+    color: white;
+  }
+
+  .topnav.responsive .topnav-icon {
+    display: none;
+    
+  }
+
+  .topnav.responsive .topnav-icon2 {
+    display: block;
+    
+  }
+  
+
+
+
+  
+
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  
+
+  
+
+
+
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+ 
+<!--Header-->
+<div class="header">
+    <div class="header-centered">
+    <a href="default.asp" class="brand"><img src="images/diamond.jpg" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+  </div>
+  
+  <!-- Left-aligned links (default) -->
+  
+ 
+  
+  <!-- Right-aligned links -->
+  <div class="header-right">
+    <a href="#" class="icon5"><i class="glyphicon glyphicon-user" style="font-size:20px;"></i></a>
+    <a href="#" class="icon5"><i class="fa fa-cloud" style="font-size:20px;"></i></a>
+    <a href="#" class="icon5"><i class="fa fa-shopping-cart" style="font-size:20px;"></i></a>
+  </div>
+
+  
+
+</div>
+<!--End Header-->
+
+
+
+<!------------topnav------------->
+<div class="topnav" id="myTopnav">
+  
+    <div class="topnav-icon">
+    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+    </div>
+
+    <div class="topnav-icon2">
+    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+    <i class="fa fa-close"></i></a>
+    </div>
+
+    
+
+    <div class="nav">
+      
+       
+      
+        <a href="#home" class="active">Home</a>
+        <a href="#news" class="dropbtn">iPhone Cases</a>
+        <a href="#contact" class="dropbtn2">Samsung Cases</a>
+        <a href="#about">Oppo Cases</a>
+        <a href="#about">Xiaomi Cases</a>
+        <a href="#about">Collection</a>
+        <a href="#about">Other Cases</a>
+
+      
+
+        
+        
+    </div>
+
+    
+    
+    
+
+</div>
+
+
+
+
+
+<!------------topnav end---------->
+
+<!------------section 1----------->
+<div class="section1">
+
+    <figure class="figure-1">
+        <a href="#"><img src="images/iphone01.jpg" alt="skydiving" style="width:100%"></a>
+        
+        
+    </figure>
+
+    
+       
+    
+
+    <figure class="figure-2">
+        <a href="#"><img src="images/iphone06.jpg" alt="skydiving" style="width:100%"></a>
+        
+    </figure>
+
+    <figure class="figure-3">
+        <a href="#"><img src="images/iphone03.jpg" alt="skydiving" style="width:100%"></a>
+        
+    </figure>
+    
+
+</div>
+<br>
+<br>
+<!------------sextion 1 end------->
+
+<!------------column cards-------->
+<div class="row">
+  <div class="column">
+    <div class="card"> <span class="ribbon">NEW</span>
+      <a href="#"><img src="images/phonecase1.jpg" alt="skydiving" style="width:100%"></a>
+      <h3>iPhone 17 Cases</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p class="price">$19.99</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <a href="#"><img src="images/phonecase2.jpg" alt="skydiving" style="width:100%"></a>
+      <h3>iPhone 17 Cases</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p class="price">$19.99</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <a href="#"><img src="images/phonecase3.png" alt="skydiving" style="width:100%"></a>
+      <h3>iPhone 17 Cases</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p class="price">$19.99</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <a href="#"><img src="images/phonecase4.png" alt="skydiving" style="width:100%"></a>
+      <h3>iPhone 17 Cases</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p class="price">$19.99</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <a href="#"><img src="images/phonecase5.png" alt="skydiving" style="width:100%"></a>
+      <h3>iPhone 17 Cases</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p class="price">$19.99</p>
+    </div>
+  </div>
+
+  </div>
+</div>
+<br>
+
+
+<!------------column cards end------>
+
+<!------------section 2----------->
+<div class="section2">
+    <img src="images/img-art.jpg" >
+    <img src="images/backgroundphone2.jpg" >
+    
+</div>
+
+<!---------section 2 end---------->
+
+<!------------------------------------------------------------------
+                            Section 3
+-------------------------------------------------------------------->
+<div class="section3">
+    <div class="content-form">
+        <p>This text is styled with some of the text formatting properties.
+            This text is styled with some of the text formatting properties.
+        </p>
+
+    </div>
+
+    <div class="row2">
+  <div class="column2">
+    <div class="card">
+      <a href="#"><img src="images/phonecase1.jpg" alt="skydiving" style="width:100%"></a>
+      
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+      <a href="#"><img src="images/phonecase2.jpg" alt="skydiving" style="width:100%"></a>
+      
+    </div>
+  </div>
+  
+  <div class="column2">
+    <div class="card">
+      <a href="#"><img src="images/phonecase3.png" alt="skydiving" style="width:100%"></a>
+      
+    </div>
+  </div>
+  
+  <div class="column2">
+    <div class="card">
+      <a href="#"><img src="images/phonecase4.png" alt="skydiving" style="width:100%"></a>
+      
+    </div>
+  </div>
+
+  
+
+  </div>
+    
+    
+    
+    
+    
+
+</div>
+
+<!---------section 3 end---------->
+
+<!------------footer----------->
+<div class="footer">
+    <div>
+        Designed and developed by Pongwat
+    </div>
+   
+
+</div>
+
+<!---------footer end---------->
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        document.getElementById("myTopnav").style.width = "100%";
+      } else {
+        x.className = "topnav";
+        
+      }
+      
+    }
+
+   
+    </script>
+ 
+</body>
+</html>
